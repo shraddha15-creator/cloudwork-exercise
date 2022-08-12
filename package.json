@@ -6,6 +6,7 @@
     "babel-loader": "8.0.4",
     "moment": "^2.24.0",
     "react": "^16.7.0",
+    "react-animated-list": "^0.1.4",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.3",

@@ -1,0 +1,79 @@
+.workload-items-container{
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 50vw;
+  background-color: #edf3fe;
+  box-shadow: 2px 2px 5px rgb(152, 152, 152);
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.workload-id{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.workload-complexity{
+  color: gray;
+  font-size: .7rem;
+}
+
+.status-working{
+  font-size: .7rem;
+}
+
+.status{
+ background-color: white;
+  border-radius: 50px;
+  padding: .1rem .4rem;
+  font-size: .5rem;
+  font-weight: 600;
+}
+
+.btn-cancel{
+  cursor: pointer;
+  border: none;
+  padding: .3rem 1.5rem;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-right: 0;
+  margin-top: .5rem;
+  font-size: .7rem;
+  font-weight: 600;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  background: white;
+  color: red;
+}
+
+.btn-cancel:hover{
+  background-color: rgba(255, 0, 0, 0.107);
+}
+
+.workload-available{
+  margin: 2rem 0 1rem 1rem;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.green{
+  color: green;
+  border: 1px solid green;
+}
+
+.red{
+  color: red;
+  border: 1px solid red;
+}
+
+.yellow{
+  color: rgb(255, 166, 0);
+  border: 1px solid rgb(255, 166, 0);
+}
