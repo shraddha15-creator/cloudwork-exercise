@@ -27,9 +27,6 @@ epicMiddleware.run(epics);
 store.dispatch(WorkloadActions.submit({ complexity: 10 }));
 store.dispatch(WorkloadActions.submit({ complexity: 8 }));
 store.dispatch(WorkloadActions.submit({ complexity: 5 }));
-{
-	console.log(store.getState());
-}
 
 ReactDOM.render(
 	<Provider store={store}>
